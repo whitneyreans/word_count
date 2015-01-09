@@ -2,7 +2,8 @@ class String
   define_method(:word_count) do |string|
     input_word = self
     output_array = []
-    string_array = string.split()
+    non_chars = string.gsub(/[^a-z0-9\s]/i, '')
+    string_array = non_chars.split()
     string_array.each() do |word|
       if input_word == word
         output_array.push(word)
