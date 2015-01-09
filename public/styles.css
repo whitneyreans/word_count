@@ -1,0 +1,77 @@
+html {
+  background: url("http://www.pulsarwallpapers.com/data/media/3/Alien%20Ink%202560X1600%20Abstract%20Background.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.container {
+  background-color: #f0f0f0;
+  font-family:Arial, Helvetica, sans-serif;
+  color: #404040;
+  text-align: center;
+  height: 50%;
+  width: 40%;
+  align: center;
+  margin-top: 300px;
+  margin-left: 25%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 1px solid;
+  border-radius: 20px;
+  border-color: #f0f0f0;
+
+}
+
+.header {
+  font-weight: lighter;
+}
+
+.btn {
+  -moz-box-shadow:inset 0px 1px 0px 0px #d9fbbe;
+  -webkit-box-shadow:inset 0px 1px 0px 0px #d9fbbe;
+  box-shadow:inset 0px 1px 0px 0px #d9fbbe;
+  background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #b8e356), color-stop(1, #a5cc52) );
+  background:-moz-linear-gradient( center top, #b8e356 5%, #a5cc52 100% );
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#b8e356', endColorstr='#a5cc52');
+  background-color:#b8e356;
+  -webkit-border-top-left-radius:37px;
+  -moz-border-radius-topleft:37px;
+  border-top-left-radius:37px;
+  -webkit-border-top-right-radius:0px;
+  -moz-border-radius-topright:0px;
+  border-top-right-radius:0px;
+  -webkit-border-bottom-right-radius:37px;
+  -moz-border-radius-bottomright:37px;
+  border-bottom-right-radius:37px;
+  -webkit-border-bottom-left-radius:0px;
+  -moz-border-radius-bottomleft:0px;
+  border-bottom-left-radius:0px;
+  text-indent:0;
+  border:1px solid #83c41a;
+  display:inline-block;
+  color:#ffffff;
+  font-family:Helvetica;
+  font-size:15px;
+  font-weight:normal;
+  font-style:normal;
+  height:40px;
+  line-height:40px;
+  width:86px;
+  text-decoration:none;
+  text-align:center;
+  text-shadow:1px 1px 0px #86ae47;
+}
+.btn:hover {
+  background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #a5cc52), color-stop(1, #b8e356) );
+  background:-moz-linear-gradient( center top, #a5cc52 5%, #b8e356 100% );
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#a5cc52', endColorstr='#b8e356');
+  background-color:#a5cc52;
+  }.btn:active {
+    position:relative;
+    top:1px;
+  }
+  /* This button was generated using CSSButtonGenerator.com */
